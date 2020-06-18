@@ -1,0 +1,1 @@
+python demo.py  --config config/fashion-256.yaml --driving_video ./data/fashion/test/91MTHBRuoeS.mp4 --source_image ./data/fashion/source/91-3003CN5S.png --checkpoint path/to/checkpoint --relative --adapt_scale
