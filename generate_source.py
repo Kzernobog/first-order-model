@@ -14,7 +14,10 @@ def main():
         source_file = vid.split('.')[0]+'.png'
         source_file = os.path.join(source_path, source_file)
         video = cv2.VideoCapture(video_file)
-        frame, ok = video.read()
+        count = 0
+        while (count < 5):
+            ok, frame = video.read()
+            count += 1
         cv2.imwrite(source_file, frame)
         video.release()
 

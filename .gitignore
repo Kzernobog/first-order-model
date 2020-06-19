@@ -4,6 +4,7 @@ __pycache__
 /env
 /models
 /data/fashion/source/
+/data/fashion/.DS_Store
 /data/fashion/test/
 /data/fashion/train/
 /.DS_Store
